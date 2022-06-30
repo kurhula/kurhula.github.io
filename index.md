@@ -20,7 +20,9 @@ I have had a couple of failed attempts at business. Some of them were childish a
 
 ### Authorship
 
-Writing is the oldest of my professions. It started way back in grade 8 (the then standard 6). I wrote to practice my English. The first novel to read was called "A Bushveld Story". The English there was hectic. But the better I became in English the more I seemed to lose my Xitsonga. So I started writing in Xitsonga too. Soon enough I was writing about girls. My proudest works borrow from reality, and indeed they are not my works. It is life speaking. I have over 500 works of art and I will be sharing the less embarrassing ones on this platform. 
+Writing is the oldest of my professions. It started way back in grade 8 (the then standard 6). I wrote to practice my English. The first novel to read was called "A Bushveld Story". The English there was hectic. But the better I became in English the more I seemed to lose my Xitsonga. So I started writing in Xitsonga too. Soon enough I was writing about girls. My proudest works borrow from reality, and indeed they are not my works. It is life speaking. I have over 500 works of art and I will be sharing the less embarrassing ones on this platform.
+
+<!-- ## Blog
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -51,3 +53,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ -->
