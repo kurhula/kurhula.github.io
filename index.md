@@ -1,4 +1,4 @@
-## Home
+## Musa Kurhula Baloyi
 
 My name is Musa Kurhula Baloyi. I was born in Malamulele, Limpopo, South Africa. I spend most of my time in Gauteng, South Africa, with my wife and son.
 
