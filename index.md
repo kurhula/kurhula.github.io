@@ -1,10 +1,16 @@
-## Musa Kurhula Baloyi
+## Home
 
-You can use the [editor on GitHub](https://github.com/kurhula/kurhula.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+My name is Musa Kurhula Baloyi. I was born in Malamulele, Limpopo, South Africa. I spend most of my time in Gauteng, South Africa, with my wife and son.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I went to school at Hlawulekani Primary School, Humula High School and Khatisa High School. I then studied at the Universities of Limpopo, Witwatersrand, and Cape Town at the African Institute for Mathematical Sciences.
 
-### Markdown
+I have worked for the following companies: IBM, ThoughtWorks, Standard Bank and Differential Capital. I currently work with Brighter Futures Tuition on a part-time basis. I run a company called Madyondza Consulting, which I founded, specialising in multiple 
+
+### Innovation
+### Development
+### Enterpreneurship
+### Authorship
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
