@@ -22,10 +22,11 @@ title: Musa Kurhula Baloyi
 email: musa.baloyi707@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Talks about IDEAs
+domain: kurhula.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://kurhula.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
-github_username:  "kurhula"
+github_username: kurhula
 
 # Build settings
 theme: jekyll-theme-leap-day
