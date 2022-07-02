@@ -1,7 +1,7 @@
 ## Musa Kurhula Baloyi
 
 
-### Innovation6
+### Innovation
 
 It is hard to say what innovation is and what it is not. The ideas that I will showcase here may or may not be innovative. I've deliberately labelled this category "innovation" to avoid the more genius, provocative and calling for scrutiny "invention". In my life I have found that I would come up with different ways of doing things such that twice I've gone through patent processes. So I do think I can innovate if I toil. Too many ideas are the reason why I can never finish anything. Some of my ideas were due to a lack of knowledge and had been implemented by somebody else, some even perfectly implemented. But this is really a process of discovery more than anything. Knowing too much is bad for innovation, however, knowing too little is worse. 
 
