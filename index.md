@@ -1,12 +1,7 @@
 ## Musa Kurhula Baloyi
 
-My name is Musa Kurhula Baloyi. I was born in Malamulele, Limpopo, South Africa. I spend most of my time in Gauteng, South Africa, with my wife and son.
 
-I went to school at Hlawulekani Primary School, Humula High School and Khatisa High School. I then studied at the Universities of Limpopo, Witwatersrand, and Cape Town at the African Institute for Mathematical Sciences.
-
-I have worked for the following companies: IBM, ThoughtWorks, Standard Bank and Differential Capital. I currently work with Brighter Futures Tuition on a part-time basis. I run a company called Madyondza Consulting, which I founded, specialising in multiple 
-
-### Innovation
+### Innovation6
 
 It is hard to say what innovation is and what it is not. The ideas that I will showcase here may or may not be innovative. I've deliberately labelled this category "innovation" to avoid the more genius, provocative and calling for scrutiny "invention". In my life I have found that I would come up with different ways of doing things such that twice I've gone through patent processes. So I do think I can innovate if I toil. Too many ideas are the reason why I can never finish anything. Some of my ideas were due to a lack of knowledge and had been implemented by somebody else, some even perfectly implemented. But this is really a process of discovery more than anything. Knowing too much is bad for innovation, however, knowing too little is worse. 
 

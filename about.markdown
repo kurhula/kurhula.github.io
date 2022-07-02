@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Musa Kurhula Baloyi. I was born in Malamulele, Limpopo, South Africa. I spend most of my time in Gauteng, South Africa, with my wife and son.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I went to school at Hlawulekani Primary School, Humula High School and Khatisa High School. I then studied at the Universities of Limpopo, Witwatersrand, and Cape Town at the African Institute for Mathematical Sciences.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I have worked for the following companies: IBM, ThoughtWorks, Standard Bank and Differential Capital. I currently work with Brighter Futures Tuition on a part-time basis. I run a company called Madyondza Consulting, which I founded, specialising in multiple 
 
 
-[jekyll-organization]: https://github.com/jekyll
+[GitHub]: https://github.com/kurhula
+[LinkedIn]: https://www.linkedin.com/in/musa-baloyi-90b6a5193/
