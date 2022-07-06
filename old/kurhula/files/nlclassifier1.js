@@ -1,0 +1,1 @@
+var NaturalLanguageClassifierV1 = require('watson-developer-cloud/natural-language-classifier/v1');

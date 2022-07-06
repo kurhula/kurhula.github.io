@@ -1,0 +1,1 @@
+var AssistantV1 = require('watson-developer-cloud/assistant/v1');

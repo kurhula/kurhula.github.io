@@ -1,0 +1,115 @@
+
+	model governance for risk management notes
+- regulations question the appropriateness of models
+- governance best practices: model definitions, inventory, categorization, risk teams
+- regulatory expectations
+- Financial organizations use quantitative techniques and models for a variety of reasons
+	– setting the business strategy, 
+	- managing risk, 
+	- calculating regulatory capital, 
+	- monitoring and setting internal limits, 
+	- calculating exposures, 
+	- pricing different instruments, 
+	- performing stress testing, etc. 
+- Since the last financial crisis, there has been ever increasing regulatory pressure over the appropriateness of these models. 
+- Regulators are questioning 
+	- the assumptions and limitations of models, 
+	- the quality of the data used for their calibration, 
+	- and the thoroughness and independence of the validation process. 
+- overall governance set around a model’s lifecycle
+	– model development, 
+	- implementation, 
+	- calibration, 
+	- and validation 
+- robustness of the policies, process and controls, 
+- use tests, 
+- and the quality of the institutions’ documentation.
+- an institution’s senior management should be in a position to understand the limitations of the models, regardless of where the limitations come from, e.g.
+	- Methodological underpinning
+	- The quality and availability of the data used for the calibration
+	- Limitations linked to the models’ implementation (numerical inaccuracies, technological issues, source code bugs, etc.)
+	- Limitations imposed by the context in which the model will be used
+- Regulators also expect senior management and model users to challenge the assumptions made by the developers and whether or not the models would be adequate in real­ life situations. In particular, it should be clear to model users under what circumstances the assumptions would no longer hold. 
+- agree on is a firm­wide definition of what constitutes a model. Fed in SR 11􏰀7: “The term model refers to a quantitative method, system, or approach that applies statistical, economic, financial, or mathematical theories, techniques, and assumptions to process input data into quantitative estimates.” - “The definition of model also covers quantitative approaches whose inputs are partially or wholly qualitative or based on expert judgment, provided that the output is quantitative in nature.”
+- model inventory that covers the whole of the organization: financial planning, accounting and reporting, treasury, risk, front office, etc.
+- The inventory should cover at a minimum:
+	- Intended and approved use of the model (e.g., which instruments it covers, what types of measures can be calculated using this model, etc.)
+	- Last calibration date and calibration frequency
+	- Validation status (passed, failed, passed with caveats)
+	- Date of model sign­off and level of sign­off
+	- Link to relevant documentation and date of latest documentation review Significant manual overrides and their justification
+	- Other known issues
+	- Dependencies on other models/modules
+- In order to manage the risk associated with the use of models, firms can also separate them in different groups by their complexity (both theoretical and implementation) and materiality, measured by the impact that their use (or misuse) may have on the firm.
+- These categorizations will also inform the frequency of the calibration and validation needed for the different models
+- They will also inform banks of the intended and correct use of a model and help them decide whether its use can be extended to other purposes or instruments without a thorough review by the model developers, recalibration, and/or revalidation.
+- Ideally, model risk teams, together with model validation teams, are independent of model development teams to avoid a conflict of interest.
+- Their mandate should cover all aspects of the development, calibration, validation, and implementation of the models, as well as the quality of the model results and reporting.
+- challenge the effectiveness of the policies that affect the use of these models, review the robustness of the process used in data management, model calibration, and implementation, as well as the thoroughness of the controls.
+- determine the required level of automation, which minimizes human error while allowing for reasonable judgment overrides.
+- Model risk teams should establish a process for approvals, including key stakeholders and sign­off levels required before the model can be used (i.e., whether department/regional committee approval is enough or whether business line or even group level approvals are required).
+- once the firm has accepted that the use of models carries a specific type of risk, this risk should be included in the firm’s risk appetite statement. In particular, budget approvals for modeling teams and critical investments on model, data, and reporting technology should be part of these discussions.
+- In addition to responding to regulatory pressure, banks should prudently and closely look at the models they employ to protect their business and its reputation.
+
+
+
+
+Use of Models in the Banking Industry
+Model Governance
+Supervisory Review of Models
+Model Oversight
+Model Control Practices
+Model Validation
+Supervisory Evaluation of Model Use and Governance
+
+- Although the use of models as a management tool is a significant advance for the industry, the models themselves represent a new source of risk — the potential for model output to incorrectly inform management decisions.
+- Although modeling necessarily involves the opportunity for error, strong governance procedures can help minimize model risk by
+	- Providing reasonable assurance the model is operating as intended;
+	- Contributing to ongoing model improvement to maintain effectiveness; and
+	- Promoting better management understanding of the limitations
+and potential weaknesses of a model.
+- financial models describe business activity, predicting future or otherwise unknown aspects of that activity. Models can serve many purposes for insured financial insti- tutions, such as informing decision making, measuring risk, and estimat- ing asset values. Some examples:
+	- Credit scoring models inform deci- sion making, providing predictive information on the potential for default or delinquency used in the loan approval process and risk pricing
+	- Interest rate risk models measure risk, monitoring earnings exposure to a range of potential changes in rates and market conditions
+	- Derivatives pricing models estimate asset value, providing a methodology for determining the value of new or complex products for which market observations are not readily available
+- The necessary rigor of procedures is specific to each model. An institution’s use of and reliance on a model determines its importance and, in turn, establishes the level of controls and validation needed for that model.
+- core model governance principles
+	■ The board establishes policies provid- ing oversight throughout the organiza- tion commensurate with overall reliance on models.
+	■ Business line management2 provides adequate controls over each model’s use, based on the criticality and complexity of the model
+	■ Bank staff or external parties with appropriate independence and expert- ise periodically validate that the model is working as intended.
+	■ Internal audit tests model control practices and model validation pro- cedures to ensure compliance with established policies and procedures.
+
+
+
+- Enterprise Framework for Model Governance
+- Looking at the model life­cycle, it doesn't change in its phases (development, validation, deployment and audit). What changes is the "Model Governance".
+- Model Governance should ensure the alignment of the whole life­cycle model with the three lines of defense (Business Operation, Risk Management function, effectiveness and efficiency of the Model Risk).
+- The First Line, represented by Business Operations, deals with models. It is responsible for the development of the activity and it provides their availability. The Second line, composed by Risk Management functions, is in charge for model management and validation. The model performance monitoring are executed within the second line in order to verify consistency, validity and efficacy. The third line of defense is deals with Internal Audit, that has a key role of completion of the entire Governance Picture; Internal Audit contribution consists on:
+	- the evaluation of the activities for the effectiveness and efficiency of the Model Risk analysis;
+	- the notification of deficiencies and process improvements.
+
+Effective Model Monitoring: Key Principles	
+- Enterprise level model inventory
+- Robust data monitoring processes
+- Governance structure
+- Comprehensive indicators for model performance
+- Model discrimination
+- System stability
+- Characteristic stability
+- ‘Actual versus expected’ or calibration
+- Scoring analysis distribution
+- Override analysis
+
+
+Effective management information systems (MIS)
+
+1. Model Governance _ Moody's Analytics.pdf
+3 - Class based views - Django REST framework.pdf
+3. 8 Key elements for a solid Model Governance framework.pdf
+4. Accenture-Credit-Risk-Model-Monitoring.pdf
+5. Accenture-Emerging-Trends-Model-Risk-Management.pdf
+6. Model_governance.pdf
+7. Model_Governance_PN_042017.pdf
+8. workstream-b-governance-and-operating-model.pdf
+9. siwinter05-article1.pdf
+

@@ -1,0 +1,16 @@
+automated testing when Kent Beck and Erich Gamma introduced JUnit for Java development (http://junit.org)
+xUnit is the collective name for several unit testing frameworks for various languages
+All the xUnit-style unit testing frameworks more or less derive their functionality, structure, and coding style from Smalltalk’s unit testing framework SUnit.
+Kent Beck designed and wrote SUnit. After it gained popularity, it was ported to Java as JUnit by Kent Beck and Erich Gamma.
+Eventually, it was ported to almost every programming language.
+Now most of the programming languages come pre-packaged with at least one xUnit-style test automation library.
+A Python version, originally dubbed PyUnit, was created in 1999 and added to Python's standard set of libraries later in 2001 in Python 2.1.
+Currently, the PyUnit library is available for both versions of Python, that is, 2.7 (https://docs.python.org/2.7/library/unittest.html) and 3.x (https://docs.python.org/3.6/library/unittest.html). 
+The PyUnit became part of the Python Standard library from version 2.5 onward. It was rechristened unittest.
+unittest came to life as a third-party module PyUnit. PyUnit was the Python port for JUnit. JUnit is Java's xUnit-style unit test automation framework.
+Since then, the Python community has referred to it as unittest, the name of the library imported into the test code.
+Unittest is part of the standard library, which requires no extra installation steps.
+Also, many programming languages like Python and Java have more than one xUnit-style framework. Java has TestNG in addition to JUnit. Python has nose, pytest, and Nose2 apart from unittest.
+docstring and doctest and their use in writing simple, static, yet elegant test cases for Python 3 programs
+due to the lack of features like API, configurable tests, and test fixtures, doctest enjoys very limited popularity
+Unittest is the batteries-included test automation library of Python, which means you do not have to install an additional library or tool in order to start using it.

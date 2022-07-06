@@ -1,0 +1,1 @@
+var DiscoveryV1 = require('watson-developer-cloud/discovery/v1');

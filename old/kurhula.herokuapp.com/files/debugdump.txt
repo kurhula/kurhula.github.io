@@ -1,0 +1,37 @@
+== Info:   Trying 146.141.1.99...
+== Info: Connected to proxyss.wits.ac.za (146.141.1.99) port 80 (#0)
+== Info: Establish HTTP proxy tunnel to install.meteor.com:443
+== Info: Server auth using Basic with user '0419400j'
+=> Send header, 98 bytes (0x62)
+0000: CONNECT install.meteor.com:443 HTTP/1.1
+0029: Host: install.meteor.com:443
+0047: User-Agent: curl/7.36.0
+0060: 
+<= Recv header, 44 bytes (0x2c)
+0000: HTTP/1.0 407 Proxy Authentication Required
+<= Recv header, 27 bytes (0x1b)
+0000: Server: squid/2.7.STABLE9
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 14 Jun 2016 13:26:06 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1320
+<= Recv header, 42 bytes (0x2a)
+0000: X-Squid-Error: ERR_CACHE_ACCESS_DENIED 0
+<= Recv header, 26 bytes (0x1a)
+0000: Proxy-Authenticate: NTLM
+<= Recv header, 82 bytes (0x52)
+0000: Proxy-Authenticate: Basic realm="WITS Active Directory proxy-cac
+0040: hing web server"
+== Info: Authentication problem. Ignoring this.
+<= Recv header, 39 bytes (0x27)
+0000: X-Cache: MISS from proxyss.wits.ac.za
+<= Recv header, 52 bytes (0x34)
+0000: Via: 1.0 proxyss.wits.ac.za:80 (squid/2.7.STABLE9)
+<= Recv header, 19 bytes (0x13)
+0000: Connection: close
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Received HTTP code 407 from proxy after CONNECT
+== Info: Closing connection 0

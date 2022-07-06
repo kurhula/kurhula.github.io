@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Medias
+   ========================================================================== */
+/* Tablets Landscape Mode = Desktop Mode */
+/* Tablets Portrait Mode */
+@media only screen and (max-width: 990px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    .post-navigation .col-md-6 {
+        margin-bottom: 2px;
+    }
+}
+
+/* Phone Landscape */
+@media only screen and (max-width: 767px) {
+    .wrap-nav {
+        width: 100%;
+        left: -100%;
+    }
+
+    .navbar-collapse {
+        border: none;
+        box-shadow: none;
+        display: block;
+    }
+
+    .wrap-nav ul.nav {
+        margin-top: 10px;
+    }
+
+    .wrap-nav ul.nav {
+        margin-top: 10px;
+    }
+
+    .col-sm-8 .btn-toggle {
+        right: 0;
+    }
+
+    .section.active .col-sm-8.content-close .btn-toggle {
+        position: fixed;
+        left: 0;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Center-Container {
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .dynamic_width {
+        padding-left: 30px;
+        width: 100%;
+        float: left;
+        display: block;
+    }
+
+    .fixed_width {
+        width: 100%;
+        display: block;
+        float: left;
+        position: static;
+    }
+
+    .loading {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    .brand img {
+        display: none;
+    }
+
+    .wrap-nav ul.nav li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .wrap-nav ul.nav li a {
+        line-height: 20px;
+        font-size: 12px;
+    }
+}

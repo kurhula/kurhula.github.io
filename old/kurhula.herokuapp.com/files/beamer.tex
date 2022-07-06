@@ -1,0 +1,384 @@
+\documentclass[11pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usetheme{default}
+
+\begin{document}
+	\author{Musa Baloyi}
+	\title{Harnessing the Collective Power of Mobile Devices to Form a Networked Computing Cluster}
+	%\subtitle{}
+	%\logo{}
+	%\institute{}
+	%\date{}
+	%\subject{}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain]
+	\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Table of contents}
+\begin{itemize}
+	\item Motivation for research
+	\item Volunteer computing projects
+	\item Projected contributions
+	\item Challenges to mobile computing
+	\item Parallel and distributed computing
+	\item Schedulers and middleware
+	\item Mobile cluster computing
+	\item Related work
+	\item Case studies
+	\item Experimental setup
+	\item Architectural setup
+	\item Benchmarking libraries	
+	\item Software engineering practices
+	\item Agile project management
+	\item Work to be completed
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Motivation for research}
+\begin{itemize}
+	\item Mobile devices: 34m (1993); 5.5b (2011); 6.8b (2013).
+	\item Portable, ubiquitous, affordable.
+	\item System on Chip (SoC) architecture.
+	\item More powerful than desktops of a decade or two ago.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Volunteer computing projects}
+\begin{itemize}
+	\item Great Internet Mersenne Prime Search (GIMPS): for finding the next Mersenne prime
+	\item NFS@Home: for performing the lattice sieving step in the Number Field Sieve algorithm
+	\item SETI@home: for detecting the availability of extraterrestrial life
+	\item distributed.net: for working on different projects
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Projected contributions}
+\begin{itemize}
+	\item Developing an architecture for a mobile computing cluster
+	\item Implementing BOINC, HTCondor and MOSIX on mobile platforms
+	\item Performing benchmark comparisons of BOINC, HTCondor and MOSIX client components on mobile platforms
+	\item Providing a number of problem test cases from which more experimentation can follow
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Challenges to mobile computing}
+\begin{itemize}
+	\item Their power sustainability is insufficient.
+	\item Network connectivity is intermittent.
+	\item Modern applications involve big data.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Parallel and distributed computing}
+\framesubtitle{Open Multi-Processing (OpenMP)}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.3]{../images/parallel.png}
+	\caption{Parallel computing}
+	\label{parallel_openmp}
+\end{figure}
+\begin{itemize}
+	\item Specification for programming language extensions that allow the software developer to annotate the source code to enable multiple calls to a function or different iterations of a loop to run in parallel.
+	\item Concurrent execution inside a single Symmetric Multi-Processing (SMP) or shared-memory computer unit.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Parallel and distributed computing}
+\framesubtitle{Message Passing Interface (MPI)}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.3]{../images/mpi-arch}
+	\caption{Distributed computing}
+	\label{distributed_mpi}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Parallel and distributed computing}
+\framesubtitle{Message Passing Interface (MPI)}
+\begin{itemize}
+	\item Set of interface functions which are callable from user programs written in various languages to do message-passing on Single Program Multiple Data (SPMD) and Multiple Instruction Multiple Data (MIMD) architectures.
+	\item The strength of MPI is in running algorithms that require a great deal of interaction, also known as “embarrassingly” (or “massively”) parallel applications.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Schedulers and middleware}
+\framesubtitle{Berkeley Open Infrastructure for Network Computing (BOINC)}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.3]{../images/how-the-software-works.png}
+	\caption{How the BOINC Software Works}
+	\label{software}
+\end{figure}
+\begin{itemize}
+	\item installing the software on a server computer,
+	\item developing an application,
+	\item setting up a project web site,
+	\item then distributing the application.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Schedulers and middleware}
+\framesubtitle{High Throughput Condor (HTCondor)}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.5]{../images/HTCondorArch.png}
+	\caption{HTCondor cluster}
+	\label{htcondor_cluster}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Schedulers and middleware}
+\framesubtitle{High Throughput Condor (HTCondor)}
+\begin{itemize}
+	\item Utilizes the computing power of workstations that communicate over a network.
+	\item Manage a dedicated cluster of workstations.
+	\item Ability to effectively harness non-dedicated, preexisting resources under distributed ownership.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Schedulers and middleware}
+\framesubtitle{Multicomputer Operating System for UNIX (MOSIX)}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.5]{../images/mosix_cluster.png}
+	\caption{A MOSIX multi-cluster}
+	\label{mosix_multicluster}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Schedulers and middleware}
+\framesubtitle{Multicomputer Operating System for UNIX (MOSIX)}
+\begin{itemize}
+	\item Cluster operating system targeted for distributed computing on x86 architecture Linux clusters and multi-clusters.
+	\item Dynamic resource discovery and automatic workload distribution
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Mobile cluster computing}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.2]{../images/Mobile_Cloud_Architecture.jpg}
+	\caption{Mobile Cloud Computing}
+	\label{mcc1}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Mobile cluster computing}
+\begin{itemize}
+	\item The mobile network can be connected via Bluetooth, Wi-Fi or Ethernet (via USB).
+	\item The cluster network consists of personal computers connected via Ethernet or Wi-Fi on a Local Area Network (LAN) or Wide Area Network (WAN).
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Related work}
+\begin{itemize}
+	\item Basic mobile cloud computing model, which includes a network of mobile devices as well as a cloud platform.
+	\item Operating system, abstraction, or implementation, e.g. MAUI, DroidCluster, CloneCloud, etc.
+	\item Application of mobile cloud computing, e.g. Vehicular Cloud Computing, Health Monitoring Cloud Computing, Mobile Intelligent Learning System, etc.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Related work}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.7]{../images/droidcluster.png}
+	\caption{DroidCluster}
+	\label{droidcluster}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problems addressed}
+\begin{itemize}
+	\item Matrix multiplication
+	\begin{itemize}
+		\item Strassen, Cannon, Coppersmith-Winograd, Freivald.
+		\item Arithmetic progressions, Monte Carlo, SUMMA, DIMMA, SRUMMA.
+		\item Basic Linear Algebra Subprograms (BLAS)
+	\end{itemize}
+	\item Word frequencies
+	\begin{itemize}
+		\item String kernels, category-based n-gram language models, class-based n-gram models and statistical algorithms.
+		\item Culturomics.
+		\item Apache spark word count.
+	\end{itemize}
+	\item K-means clustering
+	\begin{itemize}
+		\item Genetic K-means Algorithm (GKA).
+		\item Customer segmentation for marketing purposes, online recommender systems.
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problems addressed contd.}
+\begin{itemize}
+	\item Prime factorisation
+	\begin{itemize}
+		\item Category 1 (special-purpose) algorithms: trial division, wheel factorisation, Pollard’s rho algorithm, Fermat’s factorisation method, Euler’s factorisation method, and special number field sieve.
+		\item Category 2 (general-purpose) algorithms: Dixon’s algorithm, continued fraction factorisation, quadratic sieve, rational sieve, and general number field sieve
+		\item Crible Algebrique: Distribution, Optimisation - Number Field Sieve  (CADO-NFS).
+		\item RSA encryption. RSA Problem. RSA numbers.
+		\item The magic words are squeamish ossifrage (AIMS).
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Experimental setup}
+\begin{table}
+	\begin{tabular}{| l | l | l | l |}
+		\hline
+		\textbf{Environment} & \textbf{Middleware} & \textbf{Problem addressed} & \textbf{Paradigm} \\ 
+		\hline \hline
+		Beowulf cluster & BOINC & Matrix multiplication &  Sequential \\
+		Mobile cluster & HTCondor & Word counts &  Parallel \\
+		& MOSIX & Prime factors & Distributed \\
+		&  & K-means clustering & \\
+		\hline 
+	\end{tabular}
+	\caption{Summary of implementation architectures}
+\end{table}
+\begin{itemize}
+	\item e.g. Mobile cluster + BOINC + matrix multiplication + sequential order.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Architectural setup}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.35]{../images/new-hpce-arch}
+	\caption{Network and architecture}
+	\label{net_arch}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Servers}
+\framesubtitle{https://bitbucket.org/mbaloyi/hpce-servers/src}
+\begin{itemize}
+	\item Ubuntu 16.04 64-bit (kurhula/vumunhu)
+	\item BOINC (kurhula/boinc) or HTCondor (kurhula/htcondor) or MOSIX (kurhula/mosix)
+	\item Docker: Dockerfile \& Docker Compose 
+	\item boinc-utils (kurhula/boinc-utils)
+	\item hpce-common (kurhula/hpce-common)
+	\item Bring up and tear down scripts
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Clients}
+\framesubtitle{https://bitbucket.org/mbaloyi/hpce-clients/src}
+\begin{itemize}
+\item CMake \& Make (CPack)
+\item GCC \& Clang
+\item MPI \& OpenMP
+\item DLib \& GTest
+\item Toolchains, e.g. Android, iOS, Windows Mobile.
+\item Problem implementations, e.g. matrix multiplication, prime factorisation, n-grams, k-means.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Benchmarking libraries}
+\begin{itemize}
+	\item High Performance Computing Challenge (HPCC) - Top500.org.
+	\begin{itemize}
+		\item HPL, DGEMM and FFTE collectively measure \textbf{CPU speed}.
+		\item STREAM and RandomAccess measure \textbf{memory access and update}, respectively, or memory subsystem, collectively.
+		\item PTRANS and b\_eff measure \textbf{bandwidth}.
+	\end{itemize}
+	\item Beowulf Performance Suite (BPS), NASA Parallel Benchmarks, MPI-IO Test, Gromacs, NetPIPE, Netperf, etc.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Software engineering practices}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.2]{../images/bitbucket} \hspace{1mm}
+	\includegraphics[scale=.2]{../images/git-logo} \hspace{1mm}
+	\includegraphics[scale=.3]{../images/clion2} \hspace{1mm}
+	\includegraphics[scale=.1]{../images/eclipse} \vspace{1cm}
+	\includegraphics[scale=.05]{../images/iterm2} \hspace{0mm}
+	\includegraphics[scale=.15]{../images/oh-my-zsh} \hspace{2mm}
+	\includegraphics[scale=.06]{../images/sublime} \hspace{2mm}
+	\includegraphics[scale=.6]{../images/texstudio} \hspace{2mm}
+	\includegraphics[scale=.03]{../images/vim} 
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Agile project management}
+\framesubtitle{Activities and time allocation}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.3]{../images/gantt_chart_agile.png}
+	\label{gantt_chart_agile}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Agile project management}
+\framesubtitle{Content checklist}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.2]{../images/trello.png}
+	\label{trello}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Work to be completed}
+\begin{itemize}
+	\item Implementing the four case studies
+	\item Copying the case study onto the mobile devices that form the cluster
+	\item Understanding the lifecycles of all three middleware
+	\item Running the experiments with different configurations
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Possible extensions to this work}
+\begin{itemize}
+	\item Raspberry Pi clusters for educational, demonstration and light applications purposes
+	\item In flight, maritime and terrestrial transport mobile clouds and their applications
+	\item Drones fitted with system on chips (SoCs) to form clusters for disaster management, monitoring, mining and climate applications
+	\item Hardware acceleration of mobile clouds with GPU, Digital Signal Processor (DSP) and cryptographic accelerators
+	\item CUDA and OpenCL programming for mobile cluster computing
+\end{itemize}
+\end{frame}
+
+\end{document}

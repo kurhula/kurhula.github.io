@@ -1,0 +1,80 @@
+\documentclass[12pt]{aimsessay}
+
+\usepackage[toc]{glossaries}
+\makenoidxglossaries
+
+\urlstyle{same}
+\swapnumbers 
+
+\theoremstyle{plain}
+\newtheorem{thm}[subsection]{Theorem}
+
+\theoremstyle{definition} 
+\newtheorem{lem}[subsection]{Lemma}
+\newtheorem{cor}[subsection]{Corollary}
+\newtheorem{conj}[subsection]{Conjecture}
+\newtheorem{pro}[subsection]{Proposition}
+\newtheorem{exa}[subsection]{Example}
+\newtheorem{defn}[subsection]{Definition}
+\newtheorem{rem}[subsection]{Remark}
+
+%\numberwithin{equation}{section}
+
+\input{glo}
+
+\begin{document}
+
+%titlepage
+\thispagestyle{empty}
+\begin{center}
+	\begin{minipage}{0.75\linewidth}
+		\centering
+
+		{\Large Harnessing the Collective Power of Mobile Devices to Form a Networked Computing Cluster\par}
+		\vspace{3cm}
+		
+		{\Large Musa Kurhula Baloyi\par}
+		\vspace{3cm}
+		
+		\includegraphics{../images/eie.jpg}
+		\vspace{3cm}
+		
+		{\Large May 2018}
+		
+		\vspace{2cm}
+		{\Large Supervisor: Prof. Ekow J. Otoo\par}
+	\end{minipage}
+\end{center}
+\clearpage
+
+\pagenumbering{roman}
+\input{abstract}
+
+\tableofcontents
+
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+\printnoidxglossary
+
+\pagenumbering{arabic}
+\pagestyle{myheadings}
+
+%\setlength\parindent{0pt}
+
+\input{mle-intro}
+\input{mle-appendix}
+
+\renewcommand{\bibname}{References}
+\nocite{*}
+\bibliographystyle{apalike}
+\raggedright
+\bibliography{mle-refs}
+\addcontentsline{toc}{chapter}{References}
+
+\printglossary
+
+\end{document}

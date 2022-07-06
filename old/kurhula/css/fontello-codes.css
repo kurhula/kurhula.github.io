@@ -1,0 +1,51 @@
+
+.icon-facebook:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-gplus:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-angle-left:before {
+    content: '\e802';
+}
+
+/* '' */
+.icon-angle-right:before {
+    content: '\e803';
+}
+
+/* '' */
+.icon-instagram:before {
+    content: '\e804';
+}
+
+/* '' */
+.icon-linkedin:before {
+    content: '\e805';
+}
+
+/* '' */
+.icon-tumblr:before {
+    content: '\e806';
+}
+
+/* '' */
+.icon-twitter:before {
+    content: '\e807';
+}
+
+/* '' */
+.icon-vimeo:before {
+    content: '\e808';
+}
+
+/* '' */
+.icon-youtube:before {
+    content: '\e809';
+}
+
+/* '' */

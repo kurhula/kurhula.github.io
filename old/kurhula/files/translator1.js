@@ -1,0 +1,1 @@
+var LanguageTranslatorV3 = require('watson-developer-cloud/language-translator/v3');

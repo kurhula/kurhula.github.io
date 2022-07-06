@@ -1,0 +1,26 @@
+high performance scientific computing with c
+- benjamin keller
+
+core algorithms of scientific computing
+- why use computers to do math?
+- interpolation and extrapolation
+- numerical integration
+- linear equations and matrix methods
+- monte carlo methods
+
+optimizing scientific code for performance and accuracy
+- floating-point numbers and ieee-754
+- algorithm complexity and performance
+- discrete vs fast fourier transform
+- compiler optimizations
+
+optimizing for the cpu
+- how the cpu works
+- pipelining and hardware-oriented design
+- vectorizing with avx
+
+accelerating code with parallel and distributed computing
+- parallel architectures, amdahl's law, gustafson's law
+- shared memory parallelism with openmp
+- distributed memory parallelism with mpi
+- gpgpu with cuda
